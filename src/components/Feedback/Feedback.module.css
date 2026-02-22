@@ -1,0 +1,12 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: left;
+}
+
+.stat {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}

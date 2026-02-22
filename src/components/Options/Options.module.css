@@ -1,0 +1,54 @@
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.options button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.buttonGood {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.buttonGood:hover {
+  background-color: #c8e6c9;
+}
+
+.buttonNeutral {
+  background-color: #fff8e1;
+  color: #f57c00;
+}
+
+.buttonNeutral:hover {
+  background-color: #ffecb3;
+}
+
+.buttonBad {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.buttonBad:hover {
+  background-color: #ffcdd2;
+}
+
+.buttonReset {
+  background-color: #f5f5f5;
+  color: #424242;
+}
+
+.buttonReset:hover {
+  background-color: #eeeeee;
+}
